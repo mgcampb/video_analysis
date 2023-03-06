@@ -11,6 +11,7 @@ paths.roi = 'D:\video\roi\';
 paths.mot_energy = 'D:\video\mot_energy\';
 paths.bpod_data = 'D:\Bpod_Data';
 
+mkdir(paths.save);
 mkdir(paths.gpio);
 mkdir(paths.roi);
 mkdir(paths.mot_energy);
