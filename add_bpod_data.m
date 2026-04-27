@@ -12,6 +12,8 @@ paths.cam_data = fullfile(paths.mot_energy,'synced');
 
 opt = struct;
 opt.bpod_protocol = 'OdorLaser_FreeWater';
+% opt.bpod_protocol = 'StimPatterns_FreeWater';
+% opt.bpod_protocol = 'StimPatterns_FreeWater_7Patterns';
 
 %%
 files_cam = dir(fullfile(paths.cam_data,'*.mat'));

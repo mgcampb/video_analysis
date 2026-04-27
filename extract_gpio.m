@@ -13,7 +13,8 @@ function [sync_pulse, camt] = extract_gpio(gpio_file)
 
     type = 2;
     if contains(gpio_file,'gpio1')
-        delim = ' ';
+%         delim = ' ';
+        delim = ',';
     elseif contains(gpio_file,'gpio2')
         delim = ',';
     end
